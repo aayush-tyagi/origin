@@ -1,0 +1,24 @@
+.autho{
+    position: fixed;
+    margin: 130px 750px 850px 1700px;
+    top:40;
+}
+
+.card{
+    background: #01c0c8;
+}
+.bg-primary{
+    background: #01c0c8 !important;
+}
+.cr{
+    
+    height:20%;
+    width:170%;
+
+}
+.create{
+    position: fixed;
+    margin-top:40px;
+    margin-left:410px;
+    top:100;
+}

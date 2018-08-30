@@ -1,0 +1,35 @@
+
+.signin{
+    
+    border:1px solid black;
+    margin-left: 34%;
+    margin-top:7%;
+    width:25%;
+    height:35%;
+    
+
+}
+.btn{
+    position: fixed;
+    margin-left: 560px;
+    
+}
+
+    
+    
+
+
+.autho{
+    position: fixed;
+    margin: 160px 650px 850px 760px;
+    top:200;
+    height:10%;
+    width:20%;
+    font-size: 25px;
+    text-align:center;
+    
+}
+.left{
+    margin-top:1px;
+}
+

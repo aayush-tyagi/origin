@@ -1,0 +1,68 @@
+.autho{
+    position: fixed;
+    margin: 460px 750px 850px 960px;
+    top:260;
+}
+
+.autho1{
+    position: fixed;
+    margin: 460px 750px 850px 960px;
+    top:260;
+	left:100;
+}
+.autho2{
+    position: fixed;
+    margin: 460px 750px 850px 960px;
+    top:160;
+	left:200;
+}
+
+
+.show{
+    top:220;
+    left:630 !important;
+    position:fixed;
+    width:890px;
+    
+}
+
+.right{
+   
+    
+    position: relative;
+}
+
+p{
+    font-family: "Poppins";
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 4px white;
+}
+.table {
+    border-radius: 12px;
+}
+
+.table thead tr{
+    background-color:#01C0C8;
+    border: 2px solid #ddd;
+}
+
+.table thead tr th{
+    border: 2px solid #ddd;
+}
+
+
+.table {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    height:300px;
+}
+
+.table tr td{
+     border: 2px solid #ddd;
+}
