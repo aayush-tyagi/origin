@@ -1,0 +1,43 @@
+/*.HEAD{
+    MARGIN-TOP:0.2%;
+  
+    BACKGROUND-COLOR:#01C0C8;
+    WIDTH:100%;
+    HEIGHT:10%;
+}
+
+.LOGO{
+    HEIGHT:100%;
+    
+    POSITION: CENTER;
+    COLOR: WHITE;
+    
+    MARGIN-BOTTOM:1%;
+    MARGIN-LEFT:5%;
+   
+}
+.TITLE{
+    POSITION:CENTER;
+    TEXT-ALIGN: CENTER;
+    COLOR:WHITE;
+    FONT-SIZE: 24PX;
+    FONT-FAMILY:"POPPINS";
+    MARGIN-BOTTOM:6PX;
+    MARGIN-TOP:16PX;
+}
+
+*/
+.header{
+    background-color:#01C0C8;
+    width: 100%;
+    
+}
+h3{ 
+    position: absolute;
+    left:40%;
+    top: 3%;
+    color: white;
+    font-size: 150%;
+    font-family: "Poppins";
+    display: inline;
+}
