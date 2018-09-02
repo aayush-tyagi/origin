@@ -1,0 +1,31 @@
+@import "~src/stylings/variables";
+@import "~materialize-css/dist/css/materialize.min.css";
+
+.signin {
+	border: 1px solid $color_black;
+	margin-left: 34%;
+	margin-top: 7%;
+	width: 25%;
+	height: 35%;
+}
+.btn {
+	position: fixed;
+	margin-left: 560px;
+}
+.gsign {
+	position: fixed;
+	margin-left:44%;
+	margin-top:18%;
+	height: 10%;
+	width: 20%;
+	font-size: 25px;
+	text-align: center;
+}
+.left {
+	margin-top: 6%;
+}
+p{
+	color:$color_black;
+	text-align: center;
+	margin-top: 20px;
+}

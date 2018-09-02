@@ -1,0 +1,41 @@
+<div class="side">
+    <!-- Sidebar -->
+    <nav id="sidebar">
+        <div class="sidebar-header">
+           
+        </div>
+
+        <ul class="list-unstyled components">
+            <a (click)="onDahboard();"> <h4> <fa-icon [icon]="faKeyboard"></fa-icon> Dashboard</h4></a>
+            <li>
+                <a href="#"><fa-icon [icon]="faBook"></fa-icon> All Courses</a>
+            </li>
+            <li>
+                <a href="#">  <fa-icon [icon]="faBookReader"></fa-icon>  Registered Courses</a>
+            </li>
+            
+            <li>
+                <a (click)="onAuthoredCourse();"><fa-icon [icon]="faPen"></fa-icon>Authored Courses</a>
+            </li>
+            <li>
+                <a href="#page" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"> Admin Features</a>
+                <ul class="collapse list-unstyled" id ="page">
+                    <li>
+                        <a href="#">Assign Course</a>
+                    </li>
+                    <li>
+                        <a href="#">Approve/Reject</a>
+                    </li>
+                    <li>
+                        <a (click)="onUser();">User Management</a>
+                    </li>
+                    <li>
+                        <a href="#">Report</a>
+                    </li>
+                </ul>
+                               
+            </li>
+        </ul>
+    </nav>
+
+</div>

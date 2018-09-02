@@ -1,0 +1,40 @@
+@import "src/stylings/variables";
+.login {
+	border: 1px solid $color_black;
+	margin-left: 34%;
+	margin-top: 7%;
+	width: 35%;
+	height: 45%;
+}
+.form-control {
+	border-top: 1px;
+	border-left: 1px;
+	border-right: 1px;
+}
+.area {
+	width: 160%;
+}
+.username {
+	height: 200px;
+	width: 500px;
+}
+.sign {
+	margin-top: 10px;
+	margin-left: 20px;
+	font-size: 30px;
+}
+.icon {
+	margin-left: 30px;
+}
+.button {
+	margin-left: 40%;
+	margin-top: 10%;
+	height: 10%;
+	width: 30%;
+}
+.pass {
+	margin-top: 40px;
+}
+.input {
+	font-family: $font_family_halfings;
+}

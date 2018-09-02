@@ -1,0 +1,37 @@
+@import 'src/stylings/variables';
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+.show {
+	margin-left:44%;
+	position: fixed;
+	margin-top:12%;
+	
+}
+.right {
+	position: relative;
+}
+
+.table {
+	border-radius: 12px;
+	border: 1px solid $color_offwhite;
+	padding: 10px;
+	text-align: center;
+	font-size: 14px;
+	margin: 4px 2px;
+	cursor: pointer;
+	height: 300px;
+	thead {
+		tr {
+			@include gradiant;
+			@include border;
+			th {
+				@include border;
+			}
+		}
+	}
+	tr {
+		td {
+			@include border;
+		}
+	}
+}
