@@ -1,0 +1,23 @@
+@import 'src/stylings/variables';
+.publishBtn {
+	position: fixed;
+	margin: 460px 750px 850px 960px;
+	top: 300;
+}
+.uploadBtn {
+	position: fixed;
+	margin: 460px 750px 850px 960px;
+	top: 300;
+	left: 100;
+}
+
+.right {
+	position: relative;
+}
+p {
+	font-family: $font_family_poppins;
+	font-size: 20px;
+	text-align: center;
+	color: $color_black;
+	text-shadow: 2px 2px 4px white;
+}

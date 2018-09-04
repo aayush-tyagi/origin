@@ -1,0 +1,13 @@
+@import "src/stylings/variables";
+.card .bg-primary{
+	@include gradiant
+}
+.title{
+	color : $color_white;
+	font-family: $font_family_poppins;
+}
+.create{
+  position: fixed;
+  margin-top:10%;
+  margin-left: 44%;
+}

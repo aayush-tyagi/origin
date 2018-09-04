@@ -1,0 +1,42 @@
+<div class="container">
+    <form (ngSubmit)="processForm()">
+      <div class="form-group">
+          <label>Id:  <input type="text" name="id" class="form-control"  [(ngModel)]="user.id"> 
+        </label> 
+        </div>
+        <div class="form-group">
+                <label>Name: 
+            <input type="text" name="name" class="form-control"  [(ngModel)]="user.name">
+            </label>
+            </div>
+            <div class="form-group">
+                 <!-- <label>Status: 
+                <input type="text" name="status" class="form-control"  [(ngModel)]="user.status"> 
+                </label>   -->
+                  <label>Status:
+                <select [(ngModel)]="user.status" name="user.status">
+                    <option *ngFor="let s of status" [value]="s.status"  > 
+                                  {{s.status}}             
+                    </option>
+                </select> 
+            </label>
+                </div>
+                <div class="form-group">
+                        <!-- <label>Role
+                    <input type="text" name="role" class="form-control"  [(ngModel)]="user.role">
+                    </label>   -->
+                    <label>Role
+                    <select [(ngModel)]="user.role" name="user.role">
+                            <option *ngFor="let r of role" [value]="r.role" > 
+                                          {{r.role}}             
+                            </option>
+                        </select>
+                        </label>
+                    </div>
+                    <!-- <div class="form-group">
+                        <input type="radio"  [(ngModel)]="user.role">Learner
+                        <input type="radio" [(ngModel)]="user.role">Instructor
+                    </div> -->
+            <input type="submit" value="Update" class="btn btn-success">
+      </form>
+ 
